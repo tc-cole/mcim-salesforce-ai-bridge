@@ -53,6 +53,10 @@ uv run uvicorn src.main:app --reload
 
 The API will be available at `http://localhost:8000` with automatic documentation at `http://localhost:8000/docs`.
 
+## Live Demo
+
+The project is deployed and can be viewed at: https://salesforce-ai-bridge-f2c240ab74a3.herokuapp.com/docs
+
 ## Environment Variables
 
 Copy `.env.example` to `.env` and configure the following variables:
@@ -322,14 +326,6 @@ The application provides built-in cost monitoring through:
    - Enrichment necessity tracking
    - Response generation efficiency
 
-### Performance Impact
-
-Based on typical usage patterns:
-
-| Optimization | Cost Reduction | Performance Gain | Memory Usage |
-|-------------|----------------|------------------|--------------|
-| LRU Caching | 30-70% | 95%+ faster for cache hits | ~1KB per cached item |
-| State Management | 5-15% | 20% faster processing | Minimal |
 
 ### Configuration
 
